@@ -1,0 +1,113 @@
+.app-header{
+  height: 60px;
+  background-color: rgba(35, 122, 46, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+.app-header .header-title{
+  font-size: 28px;
+  color: #FFFFFF;
+}
+.app-header .header-name{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.el-popover{
+  width: 100px!important;
+  min-width: 100px !important;
+  text-align: center;
+}
+.popover-p{
+  font-size: 14px;
+}
+.app-el-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.el-menu-item, .el-tabs__item{
+  font-size: 24px;
+}
+.app-content{
+  padding: 0 80px;
+}
+.app-content .school-content{
+  padding: 30px 50px;
+  border-bottom: 1px solid rgba(35, 122, 46, 1);
+  overflow: hidden;
+}
+.app-content .school-title{
+  font-size: 24px;
+  color: #333;
+  line-height: 50px;
+}
+.app-content .school-content-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app-content .school-content-list .input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.app-content .input-lable{
+  font-size: 24px;
+  color: #333;
+}
+.input-container .el-input {
+  width: 60%;
+}
+.app-content .add-button{
+  width: 120px;
+  float: right;
+  background: rgba(35, 122, 46, 1);
+  border: none;
+}
+.app-content .center-container{
+  display: flex;
+  justify-content: center;
+}
+.app-content .save-button{
+  width: 120px;
+  background: rgba(22, 155, 213, 1);;
+  border: none;
+  margin-top: 50px;
+}
+.app-content .fee-content-list .input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 0;
+}
+.app-content .fee-content-list .input-container-title {
+  max-width: 400px;
+}
+.app-content .fee-content-list .input-lable-title{
+  padding-left: 50px;
+  width: 200px;
+}
+.app-content .fee-content-list .el-input {
+  width: 30%;
+}
+.app-content .table-title{
+  font-size: 34px;
+  color: #333;
+  padding-left: 30px;
+  margin: 80px 0 50px;
+}
+.app-content .table-pagination{
+  margin-top: 30px;
+}
+.app-dialog .input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 0;
+}
